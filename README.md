@@ -19,7 +19,7 @@
 
 阿里云盘自动签到一键脚本
 ```
-bash <(curl -s https://raw.githubusercontent.com/sxbai/aliyun-auto-signin-replit/master/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/ddys001/aliyun-auto-signin-replit/main/install.sh)
 ```
 ## 首次搭建注意事项
 - 根目录下`config.ini`文件打开，添加你的阿里云盘32位Token，文件第一行`refresh_tokens = YOUR_REFRESH_TOKEN,ANOTHER_REFRESH_TOKEN_IF_YOU_HAVE`，意思就是多账号用英文的`,`隔开 ，最后效果就是这个样子`refresh_tokens = 第一个token,第二个token,第三个token`
